@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables (Never copy secrets into the image)
+.env
+
+# Git & IDEs
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Testing & Development
+.pytest_cache/
+htmlcov/
+.coverage
+tests/
+test_features.py
+
+# OS Files
+.DS_Store
+Thumbs.db
